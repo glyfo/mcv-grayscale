@@ -1,18 +1,11 @@
-<script>
-export default {
-  name: "LoadingScreen",
-  props: ["isLoading"]
-};
-</script>
 
 <template>
     <div :class="{ loader: true, fadeout: !isLoading }">
   
     </div>
-  </template>
-  
-
-  
+</template>
+<script setup >
+</script>
   <style>
   .loader {
     background-color: #000000;
