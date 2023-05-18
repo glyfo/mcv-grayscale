@@ -1,3 +1,10 @@
+<script setup>
+
+function handleStartup(event){
+  console.warn('handleStartup', event.target.value.toUpperCase())
+}
+
+</script>
 <template>
     <section class="bg-gray-900 text-white">
   <div
@@ -19,14 +26,14 @@
       <div class="mt-8 flex flex-wrap justify-center gap-4">
         <a
           class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-          href="/get-started"
+          @click="handleStartup"
         >
-          Startup
+          Discover Now
         </a>
 
         <a
           class="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-          href="/about"
+          @click="about"
         >
           Learn More
         </a>
@@ -36,4 +43,5 @@
 </section>
 
 </template>
+
   
