@@ -7,13 +7,13 @@
       <h1
         class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
       >
-         Rethinking Web.
+         Rethinking Web Experience.
 
-        <span class="sm:block"> Increase Conversion. </span>
+        <span class="sm:block"> Scan Action. </span>
       </h1>
 
       <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-        Click to Open the Camera and convert Image into Grayscale format.
+        Click to Scan and convert Image ro RGBA to Grayscale
       </p>
 
       <div class="mt-8 flex flex-wrap justify-center gap-4">
@@ -21,7 +21,7 @@
           class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="/get-started"
         >
-          Get Started
+          Start Scanning
         </a>
 
         <a
