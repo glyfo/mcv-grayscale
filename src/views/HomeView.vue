@@ -1,3 +1,11 @@
 <template>
-     <div class="artboard phone-2">375×667</div>
+    <div class="mockup-phone">
+       <div class="camera"></div> 
+         <div class="display">
+           <div class="artboard phone-1 artboard-demo">
+              Hi.
+           </div>
+         </div>
+    </div>
 </template>
+  
