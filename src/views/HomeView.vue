@@ -2,8 +2,8 @@
 
 const isIOSSafari = !!window.navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
 
-function handleDiscoverNow(evt){
-  console.warn('handleDiscoverNow', evt +  isIOSSafari)
+function handleDiscoverNow(event){
+  console.warn('handleDiscoverNow',evt  isIOSSafari)
 }
 
 </script>
