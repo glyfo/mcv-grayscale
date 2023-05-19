@@ -1,7 +1,9 @@
 <script setup>
 
-function handleStartup(event){
-  console.warn('handleStartup', event.target.value.toUpperCase())
+const isIOSSafari = !!window.navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+
+function handleDiscoverNow(evt){
+  console.warn('handleDiscoverNow', evt +  isIOSSafari)
 }
 
 </script>
@@ -26,7 +28,7 @@ function handleStartup(event){
       <div class="mt-8 flex flex-wrap justify-center gap-4">
         <a
           class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-          @click="handleStartup"
+          @click="handleDiscoverNow(evt)"
         >
           Discover Now
         </a>
